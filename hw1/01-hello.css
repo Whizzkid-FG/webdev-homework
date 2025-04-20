@@ -5,7 +5,7 @@
 
 html {
   font-size: 18px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -34,6 +34,7 @@ html {
   margin: 0 auto;
   width: 200px;
   height: 200px;
+  border-radius: 50%;
 }
 
 .bio {
@@ -85,16 +86,16 @@ html {
   background-color: var(--light-gray);
 }
 
-.image {
-  border-radius: 50%;
-  display: block;
-  margin: auto;
-}
-
 .engineering-building-description {
   max-width: 800px;
   margin: 20px auto;
   padding: 0 10px;
+}
+
+.hint {
+  font-size: 0.8rem;
+  color: #666;
+  margin: 5px 0 15px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -119,4 +120,9 @@ form {
 .radio-buttons,
 .checkboxes {
   margin: 20px 0;
+}
+
+.radio-buttons label,
+.checkboxes label {
+  margin-right: 15px;
 }

@@ -1,5 +1,5 @@
-window.addEventListener('load', loadPage);
+window.addEventListener("load", loadPage);
 
 function loadPage(event) {
-  console.log('The page has now loaded.');
+  console.log("The page has now loaded.");
 }
